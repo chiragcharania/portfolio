@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import github from '../assets/images/github.jpg'
-import harts from '../assets/images/harts.jpg'
-import mindmap from '../assets/images/mindmap.jpg'
+import education from '../assets/images/education.jpg'
+import chirag1 from '../assets/images/chirag1.jpg'
 import Card from '../components/Card'
 
 
@@ -15,18 +15,20 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'HaRTS',
-                    subTitle: 'Health and Record Tracking System',
-                    imgSrc: harts,
-                    link: 'https://github.com/chiragcharania/harts-updated',
+                    title: 'Education Details:',
+                    // eslint-disable-next-line
+                    subTitle: 'Masters in Computer Science from State University of New York, Albany. Bachelors from \
+                    Vidyalankar Institute of Technology, Mumbai in Information Technology',
+                    imgSrc: education,
+                    link: 'https://www.albany.edu/computer-science',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Mind Map',
-                    subTitle: 'Data Visualization in a creative way',
-                    imgSrc: mindmap,
-                    link: 'https://github.com/chiragcharania/MindMap',
+                    title: 'Work Details:',
+                    subTitle: 'Currently working as a Software Developer in Enterprise e-Support Inc.',
+                    imgSrc: chirag1,
+                    link: 'https://enterpriseesupport.com/',
                     selected: false
                 },
                 {
@@ -59,7 +61,12 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            return (
+                <Col>
+                    <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+                </Col>
+            )
+
         })
     }
     render() {

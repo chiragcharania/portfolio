@@ -32,5 +32,20 @@ code {
 
 .c-card-subTitle {
     font-size: 16px;
+    content: "\a";
+    white-space: pre;
     margin: 0px;
 }
+
+.success-msg {
+    color: #57A773;
+    padding: 10px 15px;
+  }
+  
+  
+  .err-msg {
+    color: #EE6352;
+    padding: 10px 15px;
+  }
+
+
