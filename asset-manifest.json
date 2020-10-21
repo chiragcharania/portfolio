@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.06f2a940.chunk.css",
-    "main.js": "/portfolio/static/js/main.329ebfdb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.329ebfdb.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/css/2.6414bb7b.chunk.css": "/portfolio/static/css/2.6414bb7b.chunk.css",
-    "static/js/2.391130fc.chunk.js": "/portfolio/static/js/2.391130fc.chunk.js",
-    "static/js/2.391130fc.chunk.js.map": "/portfolio/static/js/2.391130fc.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.32915207506e67d25c18587b3beef4d8.js": "/portfolio/precache-manifest.32915207506e67d25c18587b3beef4d8.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.6414bb7b.chunk.css.map": "/portfolio/static/css/2.6414bb7b.chunk.css.map",
-    "static/css/main.06f2a940.chunk.css.map": "/portfolio/static/css/main.06f2a940.chunk.css.map",
-    "static/js/2.391130fc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.391130fc.chunk.js.LICENSE.txt",
-    "static/media/chirag1.jpg": "/portfolio/static/media/chirag1.97ea7a84.jpg",
-    "static/media/education.jpg": "/portfolio/static/media/education.79b4317d.jpg",
-    "static/media/github.jpg": "/portfolio/static/media/github.9ea501a3.jpg"
+    "main.css": "/static/css/main.8610df4d.chunk.css",
+    "main.js": "/static/js/main.3459b8f2.chunk.js",
+    "main.js.map": "/static/js/main.3459b8f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.391130fc.chunk.js": "/static/js/2.391130fc.chunk.js",
+    "static/js/2.391130fc.chunk.js.map": "/static/js/2.391130fc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.12949006487deb3e53db81381841e144.js": "/precache-manifest.12949006487deb3e53db81381841e144.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.8610df4d.chunk.css.map": "/static/css/main.8610df4d.chunk.css.map",
+    "static/js/2.391130fc.chunk.js.LICENSE.txt": "/static/js/2.391130fc.chunk.js.LICENSE.txt",
+    "static/media/chirag1.jpg": "/static/media/chirag1.97ea7a84.jpg",
+    "static/media/education.jpg": "/static/media/education.79b4317d.jpg",
+    "static/media/github.jpg": "/static/media/github.9ea501a3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.6414bb7b.chunk.css",
     "static/js/2.391130fc.chunk.js",
-    "static/css/main.06f2a940.chunk.css",
-    "static/js/main.329ebfdb.chunk.js"
+    "static/css/main.8610df4d.chunk.css",
+    "static/js/main.3459b8f2.chunk.js"
   ]
 }
