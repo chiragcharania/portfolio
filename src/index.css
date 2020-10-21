@@ -48,4 +48,10 @@ code {
     padding: 10px 15px;
   }
 
+  .c-align {
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+  }
+
 

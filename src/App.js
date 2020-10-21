@@ -8,7 +8,6 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 
 
-
 class App extends React.Component {
 
   constructor(props) {
